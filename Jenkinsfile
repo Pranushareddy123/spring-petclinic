@@ -7,12 +7,5 @@ pipeline {
       }
     }
 
-    stage('Static Analysis') {
-      steps {
-        sh '''./mvnw clean compile
-'''
-      }
-    }
-
   }
 }
