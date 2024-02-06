@@ -20,7 +20,6 @@ pipeline {
       steps {
         sh '''./mvnw "-Dtest=**/petclinic/*/*.java" test
 '''
-        junit '**/target/surefire-reports/'
       }
     }
 
